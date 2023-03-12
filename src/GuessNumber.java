@@ -7,7 +7,6 @@ public class GuessNumber {
     public static void main(String[] args) {
         int attempt = 0;
         int numberSecret = getRandomNumber();
-        System.out.println(numberSecret);
         int[] guessArray = new int[LIMIT_0F_ATTEMPT];
 
         while (attempt < GuessNumber.LIMIT_0F_ATTEMPT) {
